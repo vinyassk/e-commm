@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="">
+    <section id="head">
+        <a href="#"><img  src="images/logo/logo.png" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active"href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fa-solid fa-outdent"></i></i>
+        </div>
+       </section>
+
+       <div class="container">
+        <header>
+            <div class="icon-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                </svg>
+                <span>0</span>
+            </div>
+        </header>
+        <div class="listProduct">
+         
+        </div>
+
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">
+            <div class="item">
+                <div class="image">
+                    <img src="images/shoppage/9.jpg" alt="">
+                </div>
+                <div class="name">WOMENS COAT </div>
+                <div class="totalPrice">₹1999</div>
+                <div class="quantity">  
+                    <span class="minus"><</span>
+                    <span>1</span>
+                    <span class="plus">></span>
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+
+            <button class="close">CLOSE</button>
+            <button class="checkOut" onclick="checkout()">CheckOut</button>
+        </div>
+    </div>
+
+  
+  
+    <section id="newsletter"class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up for Newsletter</h4>
+            <p>Get E-mail updates about our latest shop and get <span>Special Offers.</span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+    
+        </div>
+    
+       </section>
+    
+       <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="images/logo/PSX_2.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> St Paul Road,street 32,Bangalore</p>
+            <p><strong>Phone:</strong> 180-609854/(+91)01 2256 980</p>
+            <p><strong>Hours:</strong> 10:00 am - 06:00 pm</p>
+    
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Primary Policy</a>
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="col">
+                <h4>Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App store or Google Play</p>
+                <div class="row">
+                    <img src="images/indexpage/app.png">
+                    <img src="images/indexpage/googg.png">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="images/indexpage/paygate.png">
+                <img src="images/indexpage/paygate2.png">
+            </div>
+            <div class="copyright">
+                <p>© 2024, TekkyBench Team-1  Ecommerce Website</p>
+            </div>
+        </div> 
+    
+       </footer>
+
+     <script>
+        function checkout(){
+            window.location.href="checkout.html";
+        }
+    </script>
+
+    <script src="script.js"></script>
+  
+</body>
+</html>

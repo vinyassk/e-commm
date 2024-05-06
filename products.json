@@ -1,0 +1,120 @@
+
+[
+    {
+        "id": 1,
+        "name":"  WOMEN'S TOP",
+        "price": 999,
+        "image": "images/shoppage/10.jpg"
+    },
+    {
+        "id": 2,
+        "name":"  WOMEN'S TOP",
+        "price": 999,
+        "image": "images/shoppage/8.jpg"
+    },
+    {
+        "id": 3,
+        "name":" WOMEN'S TOP",
+        "price": 999,
+        "image": "images/shoppage/9.jpg"
+    },
+    {
+        "id": 4,
+        "name":"  WOMEN'S TOP",
+        "price": 999,
+        "image": "images/shoppage/11.jpg"
+    },
+    {
+        "id": 5,
+        "name":" WOMEN'S JEANS",
+        "price": 1999,
+        "image": "images/shoppage/14.jpg"
+    },
+    {
+        "id": 6,
+        "name":" WOMEN'S JEANS",
+        "price": 1999,
+        "image": "images/shoppage/15.jpg"
+    },
+    {
+        "id": 7,
+        "name":" WOMEN'S JEANS",
+        "price": 1999,
+        "image": "images/shoppage/16.jpg"
+    },
+    {
+        "id": 8,
+        "name":" WOMEN'S JEANS",
+        "price": 1999,
+        "image": "images/shoppage/17.jpg"
+    },
+    {
+        "id":9,
+        "name":" MENS SHIRT ",
+        "price": 999,
+        "image": "images/shoppage/men1.jpg"
+    },
+    {
+        "id": 10,
+        "name":" MENS SHIRT ",
+        "price": 999,
+        "image": "images/shoppage/men2.jpg"
+    },
+    {
+        "id": 11,
+        "name":" MENS SHIRT ",
+        "price": 999,
+        "image": "images/shoppage/men4.jpg"
+    },
+    {
+        "id": 12,
+        "name":" MENS SHIRT ",
+        "price": 999,
+        "image": "images/shoppage/men5.jpg"
+    },
+    {
+        "id": 13,
+        "name":" MENS SHIRT ",
+        "price": 999,
+        "image": "images/indexpage/summer2.jpg"
+    },
+    {
+        "id": 14,
+        "name":" MENS SHIRT ",
+        "price": 999,
+        "image": "images/indexpage/summer.jpg"
+    },
+    {
+        "id": 15,
+        "name":" MENS SHIRT ",
+        "price": 999,
+        "image": "images/indexpage/summer3.jpg"
+    },
+    {
+        "id": 16,
+        "name":" MENS SHIRT ",
+        "price": 999,
+        "image": "images/indexpage/summer1.jpg"
+    },
+    {
+        "id": 17,
+        "name":" WOMENS SKIRT ",
+        "price": 999,
+        "image": "images/indexpage/sw1.jpg"
+    }, {
+        "id": 18,
+        "name":"WOMENS SKIRT ",
+        "price": 999,
+        "image": "images/indexpage/sw5.jpg"
+    }, {
+        "id": 19,
+        "name":" WOMENS SKIRT ",
+        "price": 999,
+        "image": "images/indexpage/sw3.jpg"
+    }, {
+        "id": 20,
+        "name":" WOMENS SKIRT ",
+        "price": 999,
+        "image": "images/indexpage/sw2.jpg"
+    }
+]

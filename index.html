@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <section id="header">
+    <a href="#"><img  src="images/logo/logo.png" class="logo"></a>
+    <div>
+        <ul id="navbar">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+    </div>
+    <div id="mobile">
+        <i id="bar" class="fa-solid fa-outdent"></i></i>
+    </div>
+   </section>
+
+   <section id="hero">
+    <h4>Unleash your Unique Style</h4>
+    <h2>Super Value deals</h2>
+    <h1>On all Products</h1>
+    <p>Save more with coupons & get up to 70% off</p>
+    <button onclick="shop()">Shop Now </button>
+   </section>
+
+   <section id="feature"  class="section-p1">
+    <div class="fe-box">
+       <img src="images/features/freeship.png" alt="">
+       <h6>Free Shipping</h6>
+    </div>
+     <div class="fe-box">
+        <img src="images/features/onlineorde.png" alt="">
+        <h6>Online Order</h6>
+     </div>
+     <div class="fe-box">
+        <img src="images/features/savemoney.png" alt="">
+        <h6>Save Money</h6>
+     </div>
+     <div class="fe-box">
+        <img src="images/features/promo.png" alt="">
+        <h6>Promotions</h6>
+     </div>
+     <div class="fe-box">
+        <img src="images/features/happy sell.png" alt="">
+        <h6>Happy Sell</h6>
+     </div>
+     <div class="fe-box">
+        <img src="images/features/24support.png" alt="">
+        <h6>24/7 Support</h6>
+     </div>
+   </section>
+
+   <section id="product1" class="section-p1">
+     <h2 >Featured Products</h2>
+     <p>Summer Collection New Modern Design</p>
+     <div class="listProduct1">
+           <div class="item" onclick="window.location.href='sproduct.html';">
+               <img src="images/indexpage/summer2.jpg" alt="">
+                <span>Lymio</span>
+                <h2>Casual Shirt for men</h2> 
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+               
+            </div>
+            <!-- Add other featured product items here -->
+        </div>
+    </section> 
+
+    <!-- Other sections and content -->
+
+   <footer class="section-p1">
+    <div class="col">
+        <img class="logo" src="images/logo/PSX_2.png" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> St Paul Road,street 32,Bangalore</p>
+        <p><strong>Phone:</strong> 180-609854/(+91)01 2256 980</p>
+        <p><strong>Hours:</strong> 10:00 am - 06:00 pm</p>
+
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <!-- Corrected social media links -->
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.pinterest.com"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <!-- Remaining footer content -->
+    </div> 
+
+   </footer>
+ 
+<script>
+    document.getElementById('listProduct1').addEventListener('addCart1', function(event) {
+        alert('Added To Cart!');
+    });
+</script>
+<script>
+    function shop(){
+        window.location.href="shop.html";
+    }
+</script>
+   <script src="script.js">
+
+   </script>
+</body>
+</html>
